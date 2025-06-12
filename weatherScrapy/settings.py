@@ -65,7 +65,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   "weatherScrapy.pipelines.WeatherPipeline": 300,
+   "weatherScrapy.pipelines.WeatherPipelineSqlite3": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
